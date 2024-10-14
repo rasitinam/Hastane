@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Hastane.Controller.Hastane.Controllers.DoctorsController",
+    "Method": "DoktorGetir",
+    "RelativePath": "api/Doctors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branchId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
