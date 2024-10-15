@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\rashit\\source\\repos\\Hastane\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{543052D2-FC70-442A-9CF3-DDF66B20CE3F}|Hastane.csproj|c:\\users\\rashit\\source\\repos\\hastane\\controller\\doktorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{543052D2-FC70-442A-9CF3-DDF66B20CE3F}|Hastane.csproj|solutionrelative:controller\\doktorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{543052D2-FC70-442A-9CF3-DDF66B20CE3F}|Hastane.csproj|c:\\users\\rashit\\source\\repos\\hastane\\views\\doktor\\doktorhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{543052D2-FC70-442A-9CF3-DDF66B20CE3F}|Hastane.csproj|solutionrelative:views\\doktor\\doktorhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{543052D2-FC70-442A-9CF3-DDF66B20CE3F}|Hastane.csproj|c:\\users\\rashit\\source\\repos\\hastane\\controller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{543052D2-FC70-442A-9CF3-DDF66B20CE3F}|Hastane.csproj|solutionrelative:controller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{543052D2-FC70-442A-9CF3-DDF66B20CE3F}|Hastane.csproj|c:\\users\\rashit\\source\\repos\\hastane\\controller\\hastacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{543052D2-FC70-442A-9CF3-DDF66B20CE3F}|Hastane.csproj|solutionrelative:controller\\hastacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{543052D2-FC70-442A-9CF3-DDF66B20CE3F}|Hastane.csproj|c:\\users\\rashit\\source\\repos\\hastane\\views\\hasta\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{543052D2-FC70-442A-9CF3-DDF66B20CE3F}|Hastane.csproj|solutionrelative:views\\hasta\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{543052D2-FC70-442A-9CF3-DDF66B20CE3F}|Hastane.csproj|c:\\users\\rashit\\source\\repos\\hastane\\model\\randevu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{543052D2-FC70-442A-9CF3-DDF66B20CE3F}|Hastane.csproj|solutionrelative:model\\randevu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{543052D2-FC70-442A-9CF3-DDF66B20CE3F}|Hastane.csproj|c:\\users\\rashit\\source\\repos\\hastane\\viewmodel\\hastaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{543052D2-FC70-442A-9CF3-DDF66B20CE3F}|Hastane.csproj|solutionrelative:viewmodel\\hastaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{543052D2-FC70-442A-9CF3-DDF66B20CE3F}|Hastane.csproj|c:\\users\\rashit\\source\\repos\\hastane\\controller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{543052D2-FC70-442A-9CF3-DDF66B20CE3F}|Hastane.csproj|solutionrelative:controller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{543052D2-FC70-442A-9CF3-DDF66B20CE3F}|Hastane.csproj|c:\\users\\rashit\\source\\repos\\hastane\\model\\randevu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{543052D2-FC70-442A-9CF3-DDF66B20CE3F}|Hastane.csproj|solutionrelative:model\\randevu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 218,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,19 +42,56 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoktorHome.cshtml",
+              "DocumentMoniker": "C:\\Users\\rashit\\source\\repos\\Hastane\\Views\\Doktor\\DoktorHome.cshtml",
+              "RelativeDocumentMoniker": "Views\\Doktor\\DoktorHome.cshtml",
+              "ToolTip": "C:\\Users\\rashit\\source\\repos\\Hastane\\Views\\Doktor\\DoktorHome.cshtml",
+              "RelativeToolTip": "Views\\Doktor\\DoktorHome.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwDgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T08:00:23.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoktorController.cs",
+              "DocumentMoniker": "C:\\Users\\rashit\\source\\repos\\Hastane\\Controller\\DoktorController.cs",
+              "RelativeDocumentMoniker": "Controller\\DoktorController.cs",
+              "ToolTip": "C:\\Users\\rashit\\source\\repos\\Hastane\\Controller\\DoktorController.cs",
+              "RelativeToolTip": "Controller\\DoktorController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T07:54:14.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\rashit\\source\\repos\\Hastane\\Controller\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controller\\LoginController.cs",
+              "ToolTip": "C:\\Users\\rashit\\source\\repos\\Hastane\\Controller\\LoginController.cs",
+              "RelativeToolTip": "Controller\\LoginController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T15:43:11.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Randevu.cs",
               "DocumentMoniker": "C:\\Users\\rashit\\source\\repos\\Hastane\\Model\\Randevu.cs",
               "RelativeDocumentMoniker": "Model\\Randevu.cs",
               "ToolTip": "C:\\Users\\rashit\\source\\repos\\Hastane\\Model\\Randevu.cs",
               "RelativeToolTip": "Model\\Randevu.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAWwBcAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAIAywBcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T20:55:09.219Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HastaViewModel.cs",
               "DocumentMoniker": "C:\\Users\\rashit\\source\\repos\\Hastane\\ViewModel\\HastaViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\HastaViewModel.cs",
@@ -62,41 +103,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Home.cshtml",
-              "DocumentMoniker": "C:\\Users\\rashit\\source\\repos\\Hastane\\Views\\Hasta\\Home.cshtml",
-              "RelativeDocumentMoniker": "Views\\Hasta\\Home.cshtml",
-              "ToolTip": "C:\\Users\\rashit\\source\\repos\\Hastane\\Views\\Hasta\\Home.cshtml",
-              "RelativeToolTip": "Views\\Hasta\\Home.cshtml",
-              "ViewState": "AgIAACUAAAAAAAAAAAAmwC4AAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T07:16:12.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "HastaController.cs",
               "DocumentMoniker": "C:\\Users\\rashit\\source\\repos\\Hastane\\Controller\\HastaController.cs",
               "RelativeDocumentMoniker": "Controller\\HastaController.cs",
               "ToolTip": "C:\\Users\\rashit\\source\\repos\\Hastane\\Controller\\HastaController.cs",
               "RelativeToolTip": "Controller\\HastaController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA6wBsAAABaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T07:15:20.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\rashit\\source\\repos\\Hastane\\Controller\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controller\\LoginController.cs",
-              "ToolTip": "C:\\Users\\rashit\\source\\repos\\Hastane\\Controller\\LoginController.cs",
-              "RelativeToolTip": "Controller\\LoginController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA5wCkAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T15:43:11.934Z"
+              "WhenOpened": "2024-10-01T07:15:20.054Z"
             }
           ]
         }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FaJW9nT58PrVlX5PKY8Xe0m3SGA3e6zMALE3H2Cu7BE=",
+  "Hash": "XSavd8FRIEYbIBYpacdC7gIU5y5uVT4uoGuBY2WAQL4=",
   "Source": "Hastane",
   "BasePath": "_content/Hastane",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\rashit\\source\\repos\\Hastane\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Hastane.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\rashit\\source\\repos\\Hastane\\wwwroot\\css\\doktor.css",
+      "SourceId": "Hastane",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rashit\\source\\repos\\Hastane\\wwwroot\\",
+      "BasePath": "_content/Hastane",
+      "RelativePath": "css/doktor.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\doktor.css"
     },
     {
       "Identity": "C:\\Users\\rashit\\source\\repos\\Hastane\\wwwroot\\css\\hasta.css",

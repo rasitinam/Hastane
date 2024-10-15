@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Hastane.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\rashit\\source\\repos\\Hastane\\wwwroot\\css\\doktor.css",
+      "PackagePath": "staticwebassets\\css\\doktor.css"
+    },
+    {
       "Id": "C:\\Users\\rashit\\source\\repos\\Hastane\\wwwroot\\css\\hasta.css",
       "PackagePath": "staticwebassets\\css\\hasta.css"
     },

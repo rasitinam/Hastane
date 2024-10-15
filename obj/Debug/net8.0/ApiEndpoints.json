@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "Hastane.Controller.Hastane.Controllers.DoctorsController",
+    "ContainingType": "Hastane.Controller.DoktorController",
     "Method": "DoktorGetir",
-    "RelativePath": "api/Doctors",
+    "RelativePath": "api/Doktor/branch",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -13,6 +13,16 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hastane.Controller.DoktorController",
+    "Method": "DoktorHome",
+    "RelativePath": "api/Doktor/home",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

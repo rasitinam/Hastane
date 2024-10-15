@@ -1,0 +1,77 @@
+﻿@model Hastane.ViewModel.DoktorViewModel
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doktor Profili</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/doktor.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- Doktor Profili -->
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="profile-card p-4">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 text-center">
+                            <img src="https://via.placeholder.com/150" alt="Doktor Fotoğrafı" class="profile-img">
+                        </div>
+                        <div class="col-md-8">
+                            @foreach (var item in Model.Doktor)
+                            {
+                                <h2>@item.DoktorAd @item.DoktorSoyad</h2>
+                                <p><strong>Branş:</strong>@item.Brans.BransAd</p>
+                                <p><strong>E-posta:</strong>@item.Email</p>
+                                <p><strong>Telefon:</strong>@item.Telefon</p>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Randevular -->
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-8">
+                <div class="profile-card p-4">
+                    <h4 class="mb-4">Mevcut Randevular</h4>
+                    @if (Model.BekleyenRandevular != null && Model.BekleyenRandevular.Any())
+                    {
+                        foreach (var item in Model.BekleyenRandevular.ToList())
+                        {
+                            <table class="table schedule-table">
+                                <thead>
+                                    <tr>
+                                        <th>Tarih</th>
+                                        <th>Gün</th>
+                                        <th>Saat</th>
+                                        <th>Hasta Adı</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>@item.RandevuTarihi.ToString("yyyy-MM-dd")</td>
+                                        <td>@item.RandevuTarihi.ToString("dddd")</td>
+                                        <td>@item.RandevuSaati</td>
+                                        <td>@item.Hasta.HastaAd @item.Hasta.HastaSoyad</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        }
+                    }
+                    else
+                    {
+                        <p>Bekleyen randevu bulunmamaktadır.</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -119,7 +119,7 @@ namespace Hastane.Controller
             rnd.RandevuTarihi = randevu.RandevuTarihi;
             rnd.RandevuSaati = randevu.RandevuSaati;
             rnd.OnayDurumu = true;
-            var rndmusait = _context.RandevuMusait.FirstOrDefault(r => r.MusaitSaat ==rnd.RandevuSaati && r.MusaitTarih==rnd._randevuTarihi && r.DoktorId ==rnd.DoktorId);
+            var rndmusait = _context.RandevuMusait.FirstOrDefault(r => r.MusaitSaat == rnd.RandevuSaati && r.MusaitTarih == rnd._randevuTarihi && r.DoktorId == rnd.DoktorId);
             rndmusait.Durum = false;
             _context.Randevular.Add(rnd);
             _context.SaveChanges();

@@ -70,8 +70,8 @@
                 @foreach (var randevu in Model.GecmisRandevular)
                 {
                     <li>
-                        Doktor: @randevu.Doktor.DoktorAd @randevu.Doktor.DoktorSoyad - 
-                        Tarih: @randevu.RandevuTarihi.ToShortDateString() 
+                        Doktor: @randevu.Doktor.DoktorAd @randevu.Doktor.DoktorSoyad -
+                        Tarih: @randevu.RandevuTarihi.ToShortDateString()
                         Saat: @randevu.RandevuSaati.ToString(@"hh\:mm")
                     </li>
                 }
@@ -192,7 +192,7 @@
             });
 
             $('#DoktorId').change(function () {
-                var doktorId = $(this).val(); 
+                var doktorId = $(this).val();
                 if (doktorId) {
                     $.ajax({
                         url: '/Hasta/MusaitTarihVeSaatler',

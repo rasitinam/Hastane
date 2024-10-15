@@ -6,6 +6,7 @@ C:\Users\rashit\source\repos\Hastane\obj\Debug\net8.0\Hastane.csproj.CoreCompile
 C:\Users\rashit\source\repos\Hastane\obj\Debug\net8.0\Hastane.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\rashit\source\repos\Hastane\obj\Debug\net8.0\Hastane.RazorAssemblyInfo.cache
 C:\Users\rashit\source\repos\Hastane\obj\Debug\net8.0\Hastane.RazorAssemblyInfo.cs
+C:\Users\rashit\source\repos\Hastane\obj\Debug\net8.0\Hastane.sourcelink.json
 C:\Users\rashit\source\repos\Hastane\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\rashit\source\repos\Hastane\bin\Debug\net8.0\appsettings.json
 C:\Users\rashit\source\repos\Hastane\bin\Debug\net8.0\package-lock.json
